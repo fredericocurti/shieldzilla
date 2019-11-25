@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='./popup.js'></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>ShieldZilla</title>
+</head>
+<body style="width: 500px; display: flex; flex-direction: column;">
+    <img src='./icons/orange-shield.png' height="50"/>
+    <button id="blocked-domains-btn" type="button" class="collapsible">
+        External URLs (0)
+    </button>
+    <div id='blocked-domains' class="content"></div>
+
+    <button id="cookies-btn" type="button" class="collapsible">
+        Cookies (0)
+    </button>
+    <div id='cookies' class="content"></div> 
+
+    <button id="ls-btn" type="button" class="collapsible">
+        Local Storage (0)
+    </button>
+    <div id='ls' class="content"></div> 
+</body>
+</html>
